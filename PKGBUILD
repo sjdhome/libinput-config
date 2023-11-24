@@ -14,6 +14,8 @@ depends=(
 makedepends=(
 	git
 	meson
+	cmake
+	pkg-config
 )
 _commit='f373bb6777ce983368bc540b7d683cc59e274b9e'
 source=("git+${url}.git#commit=${_commit}")
